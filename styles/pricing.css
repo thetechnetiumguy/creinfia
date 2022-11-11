@@ -1,0 +1,85 @@
+h2 {
+    background-clip: text;
+    background: var(--main-gradient);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+dd {
+    display: list-item;
+    list-style-type: "✔";
+    padding-inline-start: 1ch;
+}
+
+/*******End Top-Container*******/
+
+/*******Main-section*******/
+
+.prc-main {
+    background-color: black;
+}
+
+.prc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prc-cards-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.prc-cards {
+    border: 2px solid #ffffff26;
+    transition: 0.3s ease-out;
+    flex: 1 1 300px;
+    margin: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prc-cards:hover {
+    border-color: var(--orange-color);
+}
+
+.prc-card-header {
+    background-color: #181e21;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.prc-card-body {
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.prc-card-footer {
+    background-color: #181e21;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.prc-card-footer button {
+    background: var(--main-gradient);
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    font: inherit;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.prc-card-footer button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

@@ -1,0 +1,161 @@
+/*******About-Us*****/
+
+.about {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap-reverse;
+    padding: 50px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.about h3 {
+    color: var(--pink-color);
+}
+
+.about-image {
+    flex: 400px;
+    position: relative;
+    width: 500px;
+    height: auto;
+    margin-right: 25px;
+    border-radius: 20px 100px;
+    padding: 10px;
+}
+
+.about-content {
+    flex: 400px;
+    padding: 25px 0px;
+}
+
+.about-content>p {
+    width: 75%;
+}
+
+/*******End About-Us*****/
+
+
+/*******Why Us*****/
+
+.why-us {
+    background: var(--main-gradient);
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-evenly;
+    padding: 25px 0px;
+}
+
+.why-us-cards {
+    display: flex;
+    flex: 500px;
+    flex-flow: row;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
+.why-us-content {
+    flex: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 0px 25px;
+}
+
+.why-us h3 {
+    color: black;
+    margin-bottom: 0;
+}
+
+.col-panels {
+    display: flex;
+    flex-direction: column;
+    height: 130vh;
+}
+
+.cp-one {
+    justify-content: flex-start;
+}
+
+.cp-two {
+    justify-content: flex-end;
+}
+
+.panel {
+    background-color: #181e21;
+    padding: 35px;
+    margin: 10px;
+    border-radius: 5px;
+    width: auto;
+}
+
+.panel h4 {
+    font-size: 2em;
+}
+
+/*******End why-us*****/
+
+/*******Clients*****/
+
+.clients {
+    background-color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.clients-row-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+/*******End Clients*****/
+
+/*******Newsletter*****/
+
+.newsletter-container {
+    /* background: linear-gradient(135deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 0px;
+}
+
+.newsletter {
+    background: var(--main-gradient);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    padding: 25px 50px;
+}
+
+.newsletter h1 {
+    font-size: 2.5em;
+}
+
+.newsletter-content {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.email-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.email-input:focus {
+    border: 5px solid var(--pink-color);
+}
+
+/*******End newsletter*****/

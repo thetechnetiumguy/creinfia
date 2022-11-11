@@ -1,0 +1,64 @@
+/*******Services-Container*******/
+.srv-container {
+    background-color: black;
+}
+
+.srv-container h4 {
+    font-size: 1.2rem;
+}
+
+.srv-container p {
+    color: darkgrey;
+}
+
+.srv-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 60px 40px 60px;
+}
+
+.srv-content p {
+    margin-bottom: 0.50rem;
+}
+
+.content-left {
+    padding: 0 15px 0 0;
+}
+
+.srv-cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.srv-cards {
+    border: 2px solid #ffffff18;
+    background-color: #181e21;
+    width: 60%;
+    padding: 2rem;
+    display: flex;
+    margin-bottom: 1.5rem;
+    transition: 0.3s ease-in-out all;
+}
+
+.srv-cards:hover {
+    border-color: var(--orange-color);
+}
+
+.srv-panel-icon {
+    display: grid;
+    place-items: center;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+.srv-panel-content {
+    width: 100%;
+    padding: 0 1rem;
+}
+
+/*******End Services-Container*******/
