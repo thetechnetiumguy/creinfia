@@ -1,3 +1,7 @@
+h4 {
+    font-size: 2em;
+}
+
 /*******About-Us*****/
 
 .about {
@@ -47,12 +51,49 @@
     padding: 25px 0px;
 }
 
+.why-us h3 {
+    color: black;
+    margin-bottom: 0;
+}
+
 .why-us-cards {
-    display: flex;
     flex: 500px;
-    flex-flow: row;
-    justify-content: space-evenly;
+
     padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* sets the col width to 1:1 (kinda like flex grow) | repeat function to repeat fr 2 times*/
+    grid-auto-rows: minmax(20px, auto);
+    /* sets the row height to min 20px and max auto */
+    gap: 15px;
+}
+
+.panel {
+    background-color: #181e21;
+    box-sizing: border-box;
+    padding: 35px;
+    border-radius: 5px;
+    width: auto;
+}
+
+.p-expert {
+    grid-column: 1;
+    grid-row: 1/6;
+}
+
+.p-data {
+    grid-column: 2;
+    grid-row: 2/7;
+}
+
+.p-tech {
+    grid-column: 1;
+    grid-row: 6/10;
+}
+
+.p-market {
+    grid-column: 2;
+    grid-row: 7/12;
 }
 
 .why-us-content {
@@ -61,37 +102,6 @@
     flex-flow: column;
     justify-content: center;
     padding: 0px 25px;
-}
-
-.why-us h3 {
-    color: black;
-    margin-bottom: 0;
-}
-
-.col-panels {
-    display: flex;
-    flex-direction: column;
-    height: 130vh;
-}
-
-.cp-one {
-    justify-content: flex-start;
-}
-
-.cp-two {
-    justify-content: flex-end;
-}
-
-.panel {
-    background-color: #181e21;
-    padding: 35px;
-    margin: 10px;
-    border-radius: 5px;
-    width: auto;
-}
-
-.panel h4 {
-    font-size: 2em;
 }
 
 /*******End why-us*****/
@@ -117,7 +127,6 @@
 /*******Newsletter*****/
 
 .newsletter-container {
-    /* background: linear-gradient(135deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
     background-color: black;
     display: flex;
     justify-content: space-evenly;
