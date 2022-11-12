@@ -23,10 +23,8 @@ h4 {
     flex: 400px;
     position: relative;
     width: 500px;
-    height: auto;
-    margin-right: 25px;
+    margin-right: 50px;
     border-radius: 20px 100px;
-    padding: 10px;
 }
 
 .about-content {
@@ -39,7 +37,6 @@ h4 {
 }
 
 /*******End About-Us*****/
-
 
 /*******Why Us*****/
 
@@ -166,5 +163,6 @@ h4 {
 .email-input:focus {
     border: 5px solid var(--pink-color);
 }
+
 
 /*******End newsletter*****/

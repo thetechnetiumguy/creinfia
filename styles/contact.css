@@ -79,7 +79,7 @@
 
 .form-content input:focus,
 .form-content textarea:focus {
-    border: 2px solid var(--orange-color);
+    border: 2px solid var(--pink-color);
     outline: none;
 }
 
