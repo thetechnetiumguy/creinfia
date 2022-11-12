@@ -48,7 +48,7 @@
 }
 
 .form {
-    background-color: #181e21;
+    background-color: #000;
     width: 500px;
     padding: 25px;
     margin: 25px;
@@ -68,13 +68,19 @@
 /* Make each input field custom */
 .form-content input,
 .form-content textarea {
-    background-color: #181e21;
+    background-color: #000;
     border: 2px solid #ffffff26;
     padding: 10px;
     margin: 5px;
     color: white;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+}
+
+.form-content input:focus,
+.form-content textarea:focus {
+    border: 2px solid var(--orange-color);
+    outline: none;
 }
 
 .form-content button {
