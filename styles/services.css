@@ -13,18 +13,23 @@
 
 .srv-content {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-flow: row wrap;
+    justify-content: flex-start;
     align-items: center;
     padding: 50px 60px 40px 60px;
 }
 
-.srv-content p {
-    margin-bottom: 0.50rem;
+.srv-content>*:nth-child(1) {
+    flex-basis: 500px;
 }
 
-.content-left {
-    padding: 0 15px 0 0;
+.srv-content>*:nth-child(2) {
+    flex: 1 1 500px;
+    padding-left: 20px;
+}
+
+.srv-content p {
+    margin-bottom: 0.50rem;
 }
 
 .srv-cards-container {
