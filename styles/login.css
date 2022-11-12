@@ -1,0 +1,74 @@
+.top-login {
+    height: auto !important;
+}
+
+.login-background {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.login-page-text {
+    margin: 0 auto;
+    padding: 50px;
+    flex: 2 1 250px;
+}
+
+.login-form {
+    background-color: #000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    flex: 1 1 250px;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form form input[type="text"],
+.login-form form input[type="password"] {
+    background-color: #000;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ffffff26;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.login-form form input[type="text"]:focus,
+.login-form form input[type="password"]:focus {
+    border-color: var(--orange-color);
+    outline: none;
+}
+
+.login-form form input[type="submit"] {
+    background: var(--main-gradient);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 5px;
+
+    width: 100px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.login-form form input[type="submit"]:hover {
+    transform: scale(1.1);
+}
+
+.login-form form a {
+    color: var(--pink-color);
+    text-decoration: underline;
+}
