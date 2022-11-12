@@ -1,9 +1,9 @@
 :root {
-    --blue-color: #4158d0;
-    --pink-color: #C850C0;
-    --yellow-color: #FFCC70;
-    --orange-color: #ff5d5b;
     --main-gradient: linear-gradient(135deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    --orange-color: #ff5d5b;
+    --pink-color: #C850C0;
+    --blue-color: #4158d0;
+    --yellow-color: #FFCC70;
 }
 
 html {
